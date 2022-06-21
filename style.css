@@ -1,0 +1,62 @@
+dialog {
+	border: 1px solid lightgray;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 30px;
+}
+button {
+	border: 1px solid lightgray;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.table {
+	border-collapse: collapse;
+}
+.table__header {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}
+.table,
+.table th,
+.table td {
+	border: 1px solid #ccc;
+}
+.table th,
+.table td {
+	padding: 0.5rem;
+}
+.table th {
+	cursor: pointer;
+	text-decoration: underline;
+}
+.app {
+	max-width: 1000px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+.app .header {
+	max-width: 1000px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+#addForm, #editForm {
+	max-width: fit-content;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: flex-start;
+}
+#addForm label, #editForm label {
+	margin-top: 10px;
+}
+#addForm button, #editForm button {
+	margin-top: 10px;
+	width: 100%;
+}

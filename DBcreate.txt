@@ -1,0 +1,16 @@
+
+
+CREATE DATABASE `addressbook` /*!40100 DEFAULT CHARACTER SET utf8mb4 */
+
+
+CREATE TABLE `addresses` (\n  `id` int(11) NOT NULL AUTO_INCREMENT,\n  `name` varchar(64) NOT NULL,\n  `address` varchar(128) DEFAULT NULL,\n  `city` varchar(32) DEFAULT NULL,\n  `phone` varchar(20) NOT NULL,\n  `business_phone` varchar(20) DEFAULT NULL,\n  `email` varchar(128) DEFAULT NULL,\n  `messanger` varchar(128) DEFAULT NULL,\n  `social_profile` varchar(256) DEFAULT NULL,\n  `website` varchar(128) DEFAULT NULL,\n  `photo` varchar(256) DEFAULT NULL,\n  PRIMARY KEY (`id`)\n) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4
+
+
+
+'1', 'aleksaR', 'marka miljnava 12', 'Wien', '1231231221', '', 'aleksandar@yusoft.at', 'dsfdf', '', 'https://anastasia.net'
+'4', 'Leanne Graham', '', 'Wien', '123-456-7890', '', 'Sincere@april.biz', '', '', ''
+'5', 'Misko dragomirovic', '', 'vienna', '123-456-7890', '', 'Julianne.OConner@kory.org', '', '', 'https://anastasia.net'
+'6', 'Ervin Howell Jr', 'hormayr str 12', 'innsbruck', '+43 660 9545927', '', 'Shanna@melissa.tv', '', '', ''
+
+
+
