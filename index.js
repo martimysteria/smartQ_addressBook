@@ -1,5 +1,4 @@
-//const apiUrl = "https://jsonplaceholder.typicode.com";
-const apiUrl = "http://adresbuk.local/addressbook.php";
+const apiUrl = "http://localhost/addressbook.php";
 
 let selectedContact;
 
